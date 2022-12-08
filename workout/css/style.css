@@ -1,0 +1,362 @@
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+}
+
+#corpo{
+    background-color: #f0f0f0;
+}
+
+/* CABEÇALHO*/
+.menu{
+    
+    display: flex;
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+
+    justify-content: space-around;
+}
+
+nav{
+    padding: 10px;
+    margin: 5px;
+}
+
+nav a{
+    padding: 10px;
+    font-size: 17px;
+    color: #1b6f5a;
+}
+
+/*Esse estilo é para tirar a formatação dos links que não sairam com uma classe*/
+#link{
+    text-decoration: none;
+}
+
+a:hover, a:focus{
+    background-color: #e3e3e358;
+    color: #1b6f5a;
+    border-radius: 20px;
+}
+
+/*-----------------------------------------------------------------------*/
+
+/*CHAMADA INICIAL*/
+h1{
+    font-size: 8px;
+}
+
+#txt-chamada{
+    color: #1b6f5a;
+}
+
+.logo{
+    display: flex;
+    width: 240px;
+    padding: 10px;
+
+    align-items: flex-start;
+    justify-content: space-around;
+
+    font-family: 'Baloo 2', cursive;
+    color: #37BC9B;
+}
+
+.chamada{
+    margin: 30px;
+    display: flex;
+}
+
+#btn-cadastro{
+    background-color: #1b6f5a;
+    width: 280px;
+    border-radius: 25px;
+    border: #1b6f5a;
+}
+
+.secao-inicial{
+    display: grid;
+    grid-template-columns: max-content;
+
+    height: 550px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+h2{
+    font-size: 3rem;
+    width: 550px;
+    height: 150px;
+    padding-top: 60px;
+}
+
+h3{
+    font-size: 2rem;
+    width: 550px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.pr-inicial{
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.divisao{
+    width: 80vw;
+    color: #1b6f5a;
+    margin: auto;
+    padding: 15px;
+}
+
+/*-----------------------------------------------------------------------*/
+
+/*SEGUNDA SEÇÃO*/
+
+.secao-dois{
+    width: 80vw;
+    margin: auto;
+}
+
+#p-dois{
+    font-size: 35px;
+    color: #1b6f5a;
+}
+
+#artigo{
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #1b6f5a;
+    color: #ffffff;
+}
+
+.lista{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    height: 300px;
+    margin-top: 40px;
+
+}
+
+.alertas{
+    display: block;
+    margin: auto;
+}
+
+/*-----------------------------------------------------------------------*/
+
+/*RODAPE*/
+
+footer{
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+.rodape{
+    display: flex;
+    height: 200px;
+}
+
+.text-rodape{
+    font-size: 14px;
+    margin: 40px;
+    width: 25vw;
+}
+
+.menu-rodape{
+    margin: 40px;
+    width: 10vw;   
+}
+
+.a-rodape{
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+    padding: 5px;
+    
+}
+
+.redes-rodape{
+    margin: 40px;
+    width: 20vw;
+    padding: 5px;
+}
+
+.a-redes{
+    padding: 5px;
+}
+
+.p-redes{
+    font-size: 14px;
+    width: 20vw;
+}
+
+/*-----------------------------------------------------------------------*/
+/*TELA DE CADASTRO*/
+
+.container{
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    margin-top: 80px;
+    color: #1b6f5a;
+
+   /* #1b6f5a;  #37BC9B;*/
+}
+
+.cadastro{
+    width: 26vw;
+    height: 65vh;
+    margin-left: 90px;
+}
+
+.form-cadastro{
+    background-color:  #b7518e2b;  
+    width: 30vw;
+}
+
+#submit{
+    background-color: #1b6f5a;
+    border: #1b6f5a;
+    margin: 10px;
+}
+
+/*-----------------------------------------------------------------------*/
+/*TELA DE LOGIN*/
+
+.form-login{
+    margin-top: 70px;
+    width: 500px;
+}
+
+
+/*-----------------------------------------------------------------------*/
+/*TELA DE USUÁRIO*/
+
+.box{
+    height: 500px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.testecoll{
+    margin-top: 20px;
+    margin: 20px; 
+    padding: 10px;
+    margin-left: 100px;
+}
+
+.testecoll2{ 
+    margin-top: 20px;
+    padding: 10px;
+    margin: 20px; 
+}
+
+
+#painel-box{
+    padding: 10px;
+    width: 18vw;
+    height: 8vh; 
+
+    display: flex;
+    margin: 5px;
+    align-content: space-around;
+
+    background-color: rgb(248, 252, 255); 
+    border-radius: 20px;
+    box-shadow:  2px 2px 6px rgba(36, 36, 36, 0.267);
+}
+
+
+.p-painel{
+    padding: 3px;
+    margin: auto;
+}
+
+.img-painel{
+    padding: 5px;
+}
+
+.saldos-user{
+    display: flex;
+    width: 500px;
+    /*height:300px;*/
+}
+
+.jumbotron{
+    box-shadow:  4px 2px 6px rgba(36, 36, 36, 0.267);
+    border-radius: 30px;
+}
+
+#box-despesas-left{
+    width: 620px;
+    height: 180px;
+    padding-top: 20px;
+}
+
+#box-despesas-right{
+    padding-top: 20px;
+    width: 620px;
+  /*  height: 300px; */
+}
+
+#painel-box-2{
+    padding: 5px;
+    width: 24vw;
+    height: 7vh; 
+
+    display: flex;
+    margin: 8px;
+    align-content: space-between;
+
+    border-radius: 20px;
+    box-shadow:  2px 2px 6px rgba(36, 36, 36, 0.267);
+    background-color: rgba(248, 252, 255, 0.274);
+}
+
+.my-despesas{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+#botao-despesas{
+    border-radius: 15px;
+    margin: 10px;
+    margin-left: 10px;
+}
+
+#grafico{
+    width: 620px;
+    padding-top: 20px;
+    display: flex;
+}
+
+.grafico-porcnt{
+    padding: 15px;
+    margin-top: 90px;
+    margin-left: 15px;
+}
+
+.img-grafico{
+   margin-top: 60px;
+}
+
+
+/*RODAPE USER*/
+
+.img-rodape-user{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px;
+}
+
+.rodape-user{
+    text-align: center;
+}
